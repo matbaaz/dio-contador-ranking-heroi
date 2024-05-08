@@ -7,9 +7,8 @@ operadores (para verificação do ranking do heroi), laços de repetição para 
 
 ## Rankings utilizados
 
-
-|-----------------|---------------|
 |Ranking|XP|
+|-----------------|---------------|
 |Nenhum|Menor que 0|
 |Ferro|0-1000|
 |Bronze|1001-2000|
