@@ -9,8 +9,9 @@ public class contadorLevel{
     Double xpHeroi = 0.0;
     while(true){
       try {
+        Scanner scan1 = new Scanner(System.in);
         System.out.println("Digite a xp do seu Heroi:");
-        xpHeroi = scan.nextDouble();
+        xpHeroi = scan1.nextDouble();
         break;
       } catch (Exception e) {
         System.out.println("Valor de xp fora das convenções de numero!! Tente novamente com um numero.");
