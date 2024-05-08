@@ -6,11 +6,18 @@ public class contadorLevel{
     System.out.println("Digite o nome do seu Heroi:");
     String nomeHeroi = scan.nextLine();
     String ranking = "";
-    System.out.println("Digite a xp do seu Heroi:");
-    Double xpHeroi = scan.nextDouble();
+    while(true){
+      try {
+        System.out.println("Digite a xp do seu Heroi:");
+        Double xpHeroi = scan.nextDouble();
+        break;
+      } catch (Exception e) {
+        System.out.println("Valor de xp fora das convenções de numero!! Tente novamente com um numero.");
+      }
+    }
 
     System.out.println("Seu heroi se chama "+nomeHeroi+" e tem "+xpHeroi+" de xp.");
-
+    
     if (xpHeroi<0){
       System.out.println("Seu heroi "+nomeHeroi+" está fora dos rankings!");
       ranking = "Nenhum";

@@ -3,7 +3,7 @@
 ## Explicações
 
 Este repositorio é referente ao exercício de Contador de Ranking de Heroi da DIO. O objetivo é introduzir a utilização de variaveis (utilizadas no programa para salvar o nome e a experiêmcia do heroi),
-operadores (para verificação do ranking do heroi), laços de repetição para tratamento de erros de input de usuario e mais de um heroi e finalmente estruturas de decisão para a escolha do ranking.
+operadores (para verificação do ranking do heroi), laços de repetição para tratamento de erros de input de usuario e finalmente estruturas de decisão para a escolha do ranking.
 
 ## Rankings utilizados
 
