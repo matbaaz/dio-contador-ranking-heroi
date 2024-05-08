@@ -6,10 +6,11 @@ public class contadorLevel{
     System.out.println("Digite o nome do seu Heroi:");
     String nomeHeroi = scan.nextLine();
     String ranking = "";
+    Double xpHeroi = 0.0;
     while(true){
       try {
         System.out.println("Digite a xp do seu Heroi:");
-        Double xpHeroi = scan.nextDouble();
+        xpHeroi = scan.nextDouble();
         break;
       } catch (Exception e) {
         System.out.println("Valor de xp fora das convenções de numero!! Tente novamente com um numero.");
